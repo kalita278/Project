@@ -21,5 +21,6 @@ jobs:
   good bye:
     runs-on: ubuntu-latest
     steps:
+      - name: godbye world
         run: echo "goodbye word"
         shell: bash
