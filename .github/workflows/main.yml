@@ -21,7 +21,5 @@ jobs:
   good bye:
     runs-on: ubuntu-latest
     steps:
-      - name: ggodbye
-      - uses: actions/checkout@v2
         run: echo "goodbye word"
         shell: bash
