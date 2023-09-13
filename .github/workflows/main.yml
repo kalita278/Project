@@ -12,7 +12,6 @@ jobs:
   hello:
     runs_on: ubuntu-latest
     steps:
-
       - uses: actions/checkout@v2
       - name: helloworld
       run: echo "heelo word"
